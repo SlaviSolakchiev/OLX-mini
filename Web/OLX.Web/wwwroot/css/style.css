@@ -1,0 +1,100 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.cardLayout {
+    display: flex;
+    width: 250px;
+    height: 350px;
+}
+
+.card {
+    display: flex;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 30px auto;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .card-image img {
+        width: 230px;
+        height: 150px;
+        object-fit: contain;
+    }
+
+
+
+
+.content-box {
+    display: flex;
+    justify-content: center;
+    height: -webkit-fill-available;
+}
+
+
+.card-content {
+    color: #002f34;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-adTitle {
+    width: 200px;
+    height: 40px;
+}
+
+    .card-adTitle h1 {
+        text-align: center; 
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+        .card-adTitle h1 a {
+            text-decoration: none;
+            color: #002f34;
+            width: 200px;
+            overflow: hidden;
+            display: inline-block;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+h1 a:hover {
+    background-color: #002f34;
+    color: white;
+}
+
+.card-adCategory p {
+    width: 220px;
+}
+
+.card-adDescription p {
+    width: 220px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.card-adPrice {
+    display: flex;
+    justify-content: center;
+}
+
+    .card-adPrice p {
+        font-weight: bold;
+    }

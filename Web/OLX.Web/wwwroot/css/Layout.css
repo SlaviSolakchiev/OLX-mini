@@ -1,0 +1,63 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+body {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #c7c7c72e;
+}
+
+header {
+    background-color: #002F34;
+    width: auto;
+}
+
+    header h1 {
+        font-family: 'Climate Crisis', cursive;
+        font-size: 60px;
+        margin: 0;
+        padding-top: 20px;
+        text-align: center;
+        color: #23E5DB;
+    }
+
+.navigation-bar {
+    padding: 0px;
+}
+
+    .navigation-bar ul {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        align-content: center;
+        list-style: none;
+    }
+
+        .navigation-bar ul li {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 20px;
+            padding: 10px;
+            margin: 20px;
+        }
+
+            .navigation-bar ul li a {
+                color: white;
+            }
+
+.main {
+    max-width: 80%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navigation-bar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

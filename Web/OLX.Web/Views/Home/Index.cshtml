@@ -1,0 +1,26 @@
+﻿@model OLX.Web.ViewModels.Home.CategoryListViewModel
+@using OLX.Common
+@{
+    this.ViewData["Title"] = "Home Page";
+}
+
+
+<link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+
+<section class="main-categories">
+    <h1>Главни категории</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        @foreach (var item in Model.Categories)
+        {
+
+            <input asp-controller="Ad" asp-action="AdsByCategory" asp-for="Id" type="submit" class="btn btn-link" value="@item.Text"/>
+
+            <p></p>
+        }
+
+    </form>
+
+
+</section>
+

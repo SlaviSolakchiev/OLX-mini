@@ -1,0 +1,99 @@
+﻿@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/font-awesome.min.css');
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.posters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 150px;
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+
+    .posters h1 {
+    }
+
+.openedAd {
+    display: flex;
+    height: 660px;
+}
+
+
+#carouselExampleControls, .carousel slide {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+    #carouselExampleControls .carousel-inner {
+        width: 800px;
+        height: 600px;
+        border-radius: 10px;
+    }
+
+.carousel-item active img {
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+    border-radius: 10px;
+    height: 660px;
+}
+
+    .info > .adInfoAboutUser, .adInfoLocation {
+        display: flex;
+        flex-direction: column;
+        font-family: Geomanist,Arial,sans-serif;
+        background-color: white;
+        color: rgb(0, 47, 52);
+        border-radius: 10px;
+        padding: 30px;
+        height: 200px;
+        max-height: 200px;
+        margin-bottom: 10px;
+    }
+
+.detailedInformation {
+    margin: 20px 0;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.adInfoAboutUser > h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.adDescription > h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
